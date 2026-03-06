@@ -1,0 +1,112 @@
+.education {
+  padding: var(--section-padding);
+  background: var(--bg-section-alt);
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  position: absolute;
+  left: -40px;
+  top: 1.2rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.85rem;
+  z-index: 1;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  border: 1px solid rgba(124, 58, 237, 0.15);
+  transition: var(--transition);
+}
+
+.card:hover {
+  border-color: var(--purple);
+  box-shadow: var(--shadow-card-hover);
+}
+
+.degree {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 0.3rem;
+}
+
+.school {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--text-accent);
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.thesis {
+  font-size: 0.9rem;
+  color: var(--text-secondary);
+  margin-top: 0.5rem;
+  padding-top: 0.5rem;
+  border-top: 1px solid rgba(148, 163, 184, 0.1);
+}
+
+.thesisLink {
+  color: var(--text-accent);
+  text-decoration: underline;
+  text-decoration-color: rgba(192, 132, 252, 0.4);
+  text-underline-offset: 2px;
+  transition: var(--transition);
+}
+
+.thesisLink:hover {
+  color: var(--magenta);
+  text-decoration-color: var(--magenta);
+}
+
+@media (max-width: 480px) {
+  .meta {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "about": "About",
+    "education": "Education",
+    "experience": "Experience",
+    "projects": "Projects",
+    "skills": "Skills",
+    "certifications": "Certifications",
+    "languages": "Languages",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Hello, I'm",
+    "name": "Siska Riefelyna",
+    "title": "AI & Data Science Professional",
+    "subtitle": "From Mechanical Engineering to AI — bridging disciplines with data-driven innovation",
+    "cta_contact": "Get in Touch",
+    "cta_cv": "Download CV"
+  },
+  "about": {
+    "title": "About Me",
+    "text": "Holder of a Master's degree in Artificial Intelligence for Business Transformation from SKEMA, with a diverse background in engineering, data science, teaching, and research. This provides deep understanding of enterprise needs and varied client requirements. Experience as an R&D engineer, IT engineer, and data scientist has strengthened autonomy and business/IT competencies. Currently seeking opportunities in commerce, data, and AI fields with a passion for leveraging data to inform strategic decisions and developing predictive models for organizational success.",
+    "highlights": {
+      "experience": "10+ Years Experience",
+      "degrees": "4 Degrees",
+      "projects": "10+ Data Projects",
+      "languages_spoken": "3 Languages"
+    }
+  },
+  "education": {
+    "title": "Education",
+    "degrees": [
+      {
+        "school": "SKEMA Business School x ESIEA",
+        "degree": "MSc Artificial Intelligence for Business Transformation",
+        "date": "Dec 2023",
+        "location": "Paris, France"
+      },
+      {
+        "school": "University of Sussex",
+        "degree": "PhD in Mechanical Engineering",
+        "date": "Nov 2012",
+        "location": "Brighton, United Kingdom",
+        "thesis": "Structural Uncertainty Identification Using Mode Shape Information",
+        "thesisUrl": "https://sussex.figshare.com/articles/thesis/Structural_uncertainty_identification_using_mode_shape_information/23392964?file=41120762"
+      },
+      {
+        "school": "Institut Teknologi Bandung (ITB)",
+        "degree": "Master's in Mechanical Engineering",
+        "date": "Oct 2003",
+        "location": "Bandung, Indonesia"
+      },
+      {
+        "school": "Institut Teknologi Nasional (ITENAS)",
+        "degree": "Bachelor's in Mechanical Engineering",
+        "date": "May 1999",
+        "location": "Bandung, Indonesia"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Experience",
+    "positions": [
+      {
+        "role": "Data Scientist",
+        "company": "Startup Upskyld — Learning through Podcast",
+        "location": "Paris, France",
+        "period": "Aug 2023 — Dec 2023",
+        "description": "Developed data-driven solutions for an EdTech startup, including automated content qualification through RSS feed acquisition, transcription, categorization, and competency level determination using NLP and Machine Learning."
+      },
+      {
+        "role": "IT Engineer",
+        "company": "University of Sussex",
+        "location": "Brighton, United Kingdom",
+        "period": "Jan 2013 — Jan 2017",
+        "description": "Managed IT infrastructure and provided technical support across the university. Developed and maintained systems for academic and research computing needs."
+      },
+      {
+        "role": "IT Assistant",
+        "company": "University of Sussex",
+        "location": "Brighton, United Kingdom",
+        "period": "Jun 2007 — Dec 2012",
+        "description": "Provided IT support for academic departments. Assisted with hardware and software deployment, troubleshooting, and user training for university staff and students."
+      },
+      {
+        "role": "Teaching Assistant",
+        "company": "University of Sussex",
+        "location": "Brighton, United Kingdom",
+        "period": "Jan 2012 — May 2012",
+        "description": "Assisted in teaching mechanical engineering courses. Conducted tutorials, graded assignments, and provided academic support to undergraduate students."
+      },
+      {
+        "role": "R&D Engineer",
+        "company": "CDH-AG",
+        "location": "Herbolzheim, Germany",
+        "period": "May 2011 — Nov 2011",
+        "description": "Conducted research and development in mechanical engineering. Applied advanced analytical methods and simulations for product development and optimization."
+      },
+      {
+        "role": "Mechanical Engineering Professor",
+        "company": "Institut Teknologi Nasional",
+        "location": "Bandung, Indonesia",
+        "period": "Sep 1999 — Sep 2004",
+        "description": "Taught undergraduate mechanical engineering courses. Developed curricula, conducted research, and mentored students in their academic and professional development."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Data Projects",
+    "items": [
+      {
+        "name": "Automated Content Qualification",
+        "description": "Automated qualification through RSS feed acquisition, transcription, categorization by themes, and competency level determination using NLP and ML.",
+        "tags": ["NLP", "ML", "Python"]
+      },
+      {
+        "name": "Insurance Data Analysis",
+        "description": "Analyzed insurance data to identify key performance indicators (KPIs) for determining customer pricing strategies.",
+        "tags": ["Data Analysis", "KPI", "Python"]
+      },
+      {
+        "name": "PCA Model — French Elections 2021",
+        "description": "Created a PCA model to analyze French election data and determine contributing factors by province.",
+        "tags": ["PCA", "R", "Statistics"]
+      },
+      {
+        "name": "Sales Forecasting Model",
+        "description": "Developed a prediction model based on historical sales data to forecast future product sales.",
+        "tags": ["Forecasting", "ML", "Python"]
+      },
+      {
+        "name": "Financial Sentiment Analysis (NLP)",
+        "description": "Developed an NLP model for sentiment analysis of financial tweets to gauge market sentiment.",
+        "tags": ["NLP", "Sentiment Analysis", "Python"]
+      },
+      {
+        "name": "Customer Retention Analysis",
+        "description": "Conducted retention analysis for banking clients to identify churn factors and improve customer loyalty.",
+        "tags": ["Data Analysis", "Banking", "ML"]
+      },
+      {
+        "name": "Movie Recommendation System",
+        "description": "Designed a recommendation system for users to choose films based on preferences on an OTT platform.",
+        "tags": ["Recommender System", "ML", "Python"]
+      },
+      {
+        "name": "McDonald's Nutritional Analysis",
+        "description": "Analyzed menu nutritional scores to create a customer recommendation model for healthier choices.",
+        "tags": ["Data Analysis", "Nutrition", "ML"]
+      },
+      {
+        "name": "Frenchbee Airline Market Analysis",
+        "description": "Performed market analysis and developed a digital strategy portfolio for the airline.",
+        "tags": ["Market Analysis", "Strategy", "BI"]
+      },
+      {
+        "name": "P&G Risk Management Portfolio",
+        "description": "Created a risk management portfolio for Procter & Gamble using data-driven methodologies.",
+        "tags": ["Risk Analysis", "Finance", "Strategy"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Skills",
+    "categories": {
+      "programming": {
+        "label": "Programming & Data",
+        "items": ["Python", "R", "SQL", "Rapid Miner", "VS Code", "Matlab"]
+      },
+      "ds_ml": {
+        "label": "Data Science & ML",
+        "items": ["Pandas", "Matplotlib", "Seaborn", "Sklearn", "TensorFlow", "NLP", "ML/DL", "Spacy", "NLTK", "Whisper", "ChatGPT"]
+      },
+      "mlops": {
+        "label": "MLOps & AI Platforms",
+        "items": ["ClearML", "Assembly AI", "Evidently AI", "Argilla", "Hugging Face", "GitHub"]
+      },
+      "cloud_bi": {
+        "label": "Cloud & BI",
+        "items": ["Power BI", "AWS", "Azure", "Big Data", "Hadoop", "Pivot Table", "Dataiku"]
+      },
+      "engineering": {
+        "label": "Engineering Tools",
+        "items": ["Nastran", "Patran", "Maple", "AutoCAD"]
+      },
+      "office": {
+        "label": "Office & Productivity",
+        "items": ["Word", "Excel", "PowerPoint", "Outlook", "Teams", "Airtable", "Canva"]
+      },
+      "soft": {
+        "label": "Soft Skills",
+        "items": ["Agility", "Rigor", "Autonomy", "Efficiency", "Team Spirit", "International Mindset", "Pedagogy", "Leadership"]
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "name": "Agile PM Foundation",
+        "description": "Agile Project Management certification"
+      },
+      {
+        "name": "DUPALF",
+        "description": "University Diploma in Applied Phonetics for French Language"
+      },
+      {
+        "name": "DELF B2",
+        "description": "Diploma of French as a Foreign Language — Level B2"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Languages",
+    "items": [
+      { "name": "Indonesian", "level": "Native", "percent": 100 },
+      { "name": "English", "level": "Bilingual", "percent": 95 },
+      { "name": "French", "level": "Intermediate-Upper (B2)", "percent": 70 }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Feel free to reach out for collaborations, opportunities, or just to say hello!",
+    "email": "s.riefelyna@hotmail.com",
+    "phone": "+33 7 69 00 86 94",
+    "form": {
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "send": "Send Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Siska Riefelyna. All rights reserved.",
+    "made_with": "Made with passion for data & AI"
+  }
+}

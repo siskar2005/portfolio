@@ -1,0 +1,237 @@
+{
+  "nav": {
+    "about": "À propos",
+    "education": "Formation",
+    "experience": "Expérience",
+    "projects": "Projets",
+    "skills": "Compétences",
+    "certifications": "Certifications",
+    "languages": "Langues",
+    "contact": "Contact"
+  },
+  "hero": {
+    "greeting": "Bonjour, je suis",
+    "name": "Siska Riefelyna",
+    "title": "Professionnelle en IA & Data Science",
+    "subtitle": "Du génie mécanique à l'IA — relier les disciplines par l'innovation basée sur les données",
+    "cta_contact": "Me Contacter",
+    "cta_cv": "Télécharger CV"
+  },
+  "about": {
+    "title": "À Propos de Moi",
+    "text": "Titulaire d'un Master en Intelligence Artificielle pour la Transformation des Entreprises de SKEMA, avec un parcours diversifié en ingénierie, data science, enseignement et recherche. Cela offre une compréhension approfondie des besoins des entreprises et des exigences variées des clients. L'expérience en tant qu'ingénieure R&D, ingénieure informatique et data scientist a renforcé mon autonomie et mes compétences business/IT. Actuellement à la recherche d'opportunités dans les domaines du commerce, des données et de l'IA, avec une passion pour l'exploitation des données dans les décisions stratégiques et le développement de modèles prédictifs pour le succès organisationnel.",
+    "highlights": {
+      "experience": "10+ Ans d'Expérience",
+      "degrees": "4 Diplômes",
+      "projects": "10+ Projets Data",
+      "languages_spoken": "3 Langues"
+    }
+  },
+  "education": {
+    "title": "Formation",
+    "degrees": [
+      {
+        "school": "SKEMA Business School x ESIEA",
+        "degree": "MSc Intelligence Artificielle pour la Transformation des Entreprises",
+        "date": "Déc 2023",
+        "location": "Paris, France"
+      },
+      {
+        "school": "University of Sussex",
+        "degree": "Doctorat en Génie Mécanique",
+        "date": "Nov 2012",
+        "location": "Brighton, Royaume-Uni",
+        "thesis": "Identification de l'Incertitude Structurelle à l'Aide des Informations de Mode de Forme",
+        "thesisUrl": "https://sussex.figshare.com/articles/thesis/Structural_uncertainty_identification_using_mode_shape_information/23392964?file=41120762"
+      },
+      {
+        "school": "Institut Teknologi Bandung (ITB)",
+        "degree": "Master 2 en Génie Mécanique",
+        "date": "Oct 2003",
+        "location": "Bandung, Indonésie"
+      },
+      {
+        "school": "Institut Teknologi Nasional (ITENAS)",
+        "degree": "Licence en Génie Mécanique",
+        "date": "Mai 1999",
+        "location": "Bandung, Indonésie"
+      }
+    ]
+  },
+  "experience": {
+    "title": "Expérience",
+    "positions": [
+      {
+        "role": "Data Scientist",
+        "company": "Startup Upskyld — Apprendre par le Podcast",
+        "location": "Paris, France",
+        "period": "Août 2023 — Déc 2023",
+        "description": "Développement de solutions basées sur les données pour une startup EdTech, incluant la qualification automatisée de contenu via l'acquisition de flux RSS, la transcription, la catégorisation et la détermination du niveau de compétence avec NLP et ML."
+      },
+      {
+        "role": "Ingénieure Informatique",
+        "company": "University of Sussex",
+        "location": "Brighton, Royaume-Uni",
+        "period": "Jan 2013 — Jan 2017",
+        "description": "Gestion de l'infrastructure informatique et support technique à l'université. Développement et maintenance de systèmes pour les besoins académiques et de recherche."
+      },
+      {
+        "role": "Assistante Informatique",
+        "company": "University of Sussex",
+        "location": "Brighton, Royaume-Uni",
+        "period": "Juin 2007 — Déc 2012",
+        "description": "Support informatique pour les départements académiques. Assistance au déploiement matériel et logiciel, dépannage et formation des utilisateurs."
+      },
+      {
+        "role": "Assistante d'Enseignement",
+        "company": "University of Sussex",
+        "location": "Brighton, Royaume-Uni",
+        "period": "Jan 2012 — Mai 2012",
+        "description": "Assistance à l'enseignement des cours de génie mécanique. Animation de tutoriels, correction de devoirs et soutien académique aux étudiants."
+      },
+      {
+        "role": "Ingénieure R&D",
+        "company": "CDH-AG",
+        "location": "Herbolzheim, Allemagne",
+        "period": "Mai 2011 — Nov 2011",
+        "description": "Recherche et développement en génie mécanique. Application de méthodes analytiques avancées et simulations pour le développement de produits."
+      },
+      {
+        "role": "Professeur de Génie Mécanique",
+        "company": "Institut Teknologi Nasional",
+        "location": "Bandung, Indonésie",
+        "period": "Sep 1999 — Sep 2004",
+        "description": "Enseignement de cours de génie mécanique. Développement de programmes, recherche et mentorat d'étudiants dans leur développement académique et professionnel."
+      }
+    ]
+  },
+  "projects": {
+    "title": "Projets Data",
+    "items": [
+      {
+        "name": "Qualification Automatisée de Contenu",
+        "description": "Qualification automatisée via l'acquisition de flux RSS, transcription, catégorisation par thèmes et détermination du niveau de compétence avec NLP et ML.",
+        "tags": ["NLP", "ML", "Python"]
+      },
+      {
+        "name": "Analyse de Données d'Assurance",
+        "description": "Analyse de données d'assurance pour identifier les indicateurs clés de performance (KPI) pour la tarification client.",
+        "tags": ["Analyse de Données", "KPI", "Python"]
+      },
+      {
+        "name": "Modèle ACP — Élections 2021",
+        "description": "Création d'un modèle ACP pour analyser les données électorales françaises et déterminer les facteurs contributifs par province.",
+        "tags": ["ACP", "R", "Statistiques"]
+      },
+      {
+        "name": "Modèle de Prévision des Ventes",
+        "description": "Développement d'un modèle de prédiction basé sur les données historiques pour prévoir les ventes futures.",
+        "tags": ["Prévision", "ML", "Python"]
+      },
+      {
+        "name": "Analyse de Sentiment Financier (NLP)",
+        "description": "Développement d'un modèle NLP pour l'analyse de sentiment des tweets financiers.",
+        "tags": ["NLP", "Sentiment", "Python"]
+      },
+      {
+        "name": "Analyse de Rétention Client",
+        "description": "Analyse de rétention pour les clients bancaires afin d'identifier les facteurs de désabonnement.",
+        "tags": ["Analyse de Données", "Banque", "ML"]
+      },
+      {
+        "name": "Système de Recommandation de Films",
+        "description": "Conception d'un système de recommandation pour les utilisateurs d'une plateforme OTT.",
+        "tags": ["Recommandation", "ML", "Python"]
+      },
+      {
+        "name": "Analyse Nutritionnelle McDonald's",
+        "description": "Analyse des scores nutritionnels du menu pour créer un modèle de recommandation pour des choix plus sains.",
+        "tags": ["Analyse de Données", "Nutrition", "ML"]
+      },
+      {
+        "name": "Analyse de Marché Frenchbee",
+        "description": "Analyse de marché et développement d'un portfolio de stratégie digitale pour la compagnie aérienne.",
+        "tags": ["Analyse de Marché", "Stratégie", "BI"]
+      },
+      {
+        "name": "Portfolio Gestion des Risques P&G",
+        "description": "Création d'un portfolio de gestion des risques pour Procter & Gamble avec des méthodologies data-driven.",
+        "tags": ["Risque", "Finance", "Stratégie"]
+      }
+    ]
+  },
+  "skills": {
+    "title": "Compétences",
+    "categories": {
+      "programming": {
+        "label": "Programmation & Data",
+        "items": ["Python", "R", "SQL", "Rapid Miner", "VS Code", "Matlab"]
+      },
+      "ds_ml": {
+        "label": "Data Science & ML",
+        "items": ["Pandas", "Matplotlib", "Seaborn", "Sklearn", "TensorFlow", "NLP", "ML/DL", "Spacy", "NLTK", "Whisper", "ChatGPT"]
+      },
+      "mlops": {
+        "label": "MLOps & Plateformes IA",
+        "items": ["ClearML", "Assembly AI", "Evidently AI", "Argilla", "Hugging Face", "GitHub"]
+      },
+      "cloud_bi": {
+        "label": "Cloud & BI",
+        "items": ["Power BI", "AWS", "Azure", "Big Data", "Hadoop", "Tableau Croisé", "Dataiku"]
+      },
+      "engineering": {
+        "label": "Outils d'Ingénierie",
+        "items": ["Nastran", "Patran", "Maple", "AutoCAD"]
+      },
+      "office": {
+        "label": "Bureautique",
+        "items": ["Word", "Excel", "PowerPoint", "Outlook", "Teams", "Airtable", "Canva"]
+      },
+      "soft": {
+        "label": "Savoir-être",
+        "items": ["Agilité", "Rigueur", "Autonomie", "Efficacité", "Esprit d'Équipe", "Ouverture Internationale", "Pédagogie", "Leadership"]
+      }
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "items": [
+      {
+        "name": "Agile PM Foundation",
+        "description": "Certification en gestion de projet Agile"
+      },
+      {
+        "name": "DUPALF",
+        "description": "Diplôme Universitaire de Phonétique Appliquée à la Langue Française"
+      },
+      {
+        "name": "DELF B2",
+        "description": "Diplôme d'Études en Langue Française — Niveau B2"
+      }
+    ]
+  },
+  "languages": {
+    "title": "Langues",
+    "items": [
+      { "name": "Indonésien", "level": "Langue Maternelle", "percent": 100 },
+      { "name": "Anglais", "level": "Bilingue", "percent": 95 },
+      { "name": "Français", "level": "Intermédiaire-Supérieur (B2)", "percent": 70 }
+    ]
+  },
+  "contact": {
+    "title": "Me Contacter",
+    "subtitle": "N'hésitez pas à me contacter pour des collaborations, des opportunités, ou simplement pour dire bonjour !",
+    "email": "s.riefelyna@hotmail.com",
+    "phone": "+33 7 69 00 86 94",
+    "form": {
+      "name": "Votre Nom",
+      "email": "Votre Email",
+      "message": "Votre Message",
+      "send": "Envoyer le Message"
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 Siska Riefelyna. Tous droits réservés.",
+    "made_with": "Fait avec passion pour les données & l'IA"
+  }
+}

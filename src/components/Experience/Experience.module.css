@@ -1,0 +1,97 @@
+.experience {
+  padding: var(--section-padding);
+  background: var(--bg-dark);
+}
+
+.timeline {
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+  padding-left: 40px;
+}
+
+.timeline::before {
+  content: '';
+  position: absolute;
+  left: 15px;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: var(--gradient-primary);
+  border-radius: 2px;
+}
+
+.item {
+  position: relative;
+  margin-bottom: 2rem;
+}
+
+.dot {
+  position: absolute;
+  left: -40px;
+  top: 1.2rem;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background: var(--gradient-primary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 0.85rem;
+  z-index: 1;
+}
+
+.card {
+  background: var(--bg-card);
+  border-radius: var(--border-radius);
+  padding: 1.5rem;
+  border: 1px solid rgba(219, 39, 119, 0.15);
+  transition: var(--transition);
+}
+
+.card:hover {
+  border-color: var(--magenta);
+  box-shadow: 0 8px 40px rgba(219, 39, 119, 0.15);
+}
+
+.role {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-white);
+  margin-bottom: 0.3rem;
+}
+
+.company {
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--pink);
+  margin-bottom: 0.5rem;
+}
+
+.meta {
+  display: flex;
+  gap: 1.5rem;
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.75rem;
+}
+
+.meta span {
+  display: flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.description {
+  font-size: 0.95rem;
+  color: var(--text-secondary);
+  line-height: 1.7;
+}
+
+@media (max-width: 480px) {
+  .meta {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}

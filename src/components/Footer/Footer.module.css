@@ -1,0 +1,38 @@
+.footer {
+  padding: 2rem;
+  background: var(--bg-darker);
+  border-top: 1px solid rgba(124, 58, 237, 0.15);
+}
+
+.content {
+  text-align: center;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.socials a {
+  font-size: 1.4rem;
+  color: var(--text-secondary);
+  transition: var(--transition);
+}
+
+.socials a:hover {
+  color: var(--text-accent);
+  transform: translateY(-2px);
+}
+
+.madeWith {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-bottom: 0.5rem;
+}
+
+.copyright {
+  font-size: 0.8rem;
+  color: rgba(148, 163, 184, 0.6);
+}
